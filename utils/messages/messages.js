@@ -21,6 +21,20 @@ const BOOK_DELETED_SUCCESSFULLY = 'Book deleted successfully';
 const PASSWORD_INCORRECT = 'Password incorrect'
 const LOGIN_SUCCESSFULLY = 'Login Successfully'
 
+// Product Start
+const PRODUCT_FOUND_SUCCESSFULLY = 'Product Found Successfully';
+const PRODUCT_NOT_FOUND = 'Product Not Found';
+const PRODUCT_ADDED_SUCCESSFULLY = 'Product Added Successfully';
+const PRODUCT_DELETED_SUCCESSFULLY = 'Product Deleted Successfully';
+// Product End
+
+// Category Start
+const CATEGORY_FOUND_SUCCESSFULLY = 'Category Found Successfully';
+const CATEGORY_NOT_FOUND = 'Category Not Found';
+const CATEGORY_ADDED_SUCCESSFULLY = 'Category Added Successfully';
+const CATEGORY_DELETED_SUCCESSFULLY = 'Category Deleted Successfully';
+// Category End
+
 module.exports = {
     DATA_SUCCESSFULLY,
     DATA_NOT_FOUND,
@@ -33,5 +47,13 @@ module.exports = {
     BOOK_ADDED_SUCCESSFULLY,
     BOOK_DELETED_SUCCESSFULLY,
     PASSWORD_INCORRECT,
-    LOGIN_SUCCESSFULLY
+    LOGIN_SUCCESSFULLY,
+    PRODUCT_FOUND_SUCCESSFULLY,
+    PRODUCT_ADDED_SUCCESSFULLY,
+    PRODUCT_DELETED_SUCCESSFULLY,
+    PRODUCT_NOT_FOUND,
+    CATEGORY_ADDED_SUCCESSFULLY,
+    CATEGORY_DELETED_SUCCESSFULLY,
+    CATEGORY_FOUND_SUCCESSFULLY,
+    CATEGORY_NOT_FOUND
 }
